@@ -1,0 +1,16 @@
+# Setup using Intellij Idea
+
+https://medium.com/@yuntianhe/create-a-web-project-with-maven-spring-mvc-b859503f74d7
+
+# Please refer the below link for maven archetype webapp details. The below link is also useful for Spring MVC setup in eclipse.
+
+
+https://examples.javacodegeeks.com/enterprise-java/spring/mvc/spring-mvc-hello-world-example/
+
+# Archetype details
+
+“Archetype Group Id”	: "org.apache.maven.archetypes"
+
+“Archetype artifact Id” : "maven-archetype-webapp"
+
+“Archetype Version”	: "1.0"
