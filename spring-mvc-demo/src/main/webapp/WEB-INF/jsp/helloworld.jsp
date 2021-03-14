@@ -13,6 +13,8 @@
 <body>
     <h1>HelloWorld from Spring MVC!!!</h1>
     <br/>
-    <h3>Welcome : ${param.userName}</h3>
+    <h4>Welcome : ${param.userName}</h4>
+    <br />
+    <h2>The message : ${message}</h2>
 </body>
 </html>
