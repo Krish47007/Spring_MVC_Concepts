@@ -16,5 +16,6 @@
     <h4>Welcome : ${param.userName}</h4>
     <br />
     <h2>The message : ${message}</h2>
+    <img src="${pageContext.request.contextPath}/resources/images/test">
 </body>
 </html>

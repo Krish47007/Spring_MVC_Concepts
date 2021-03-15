@@ -24,6 +24,9 @@
         <property name="suffix" value=".jsp" />
     </bean>
 
+    <!-- Step 6 : Loading static files like css/js and image files -->
+    <mvc:resources mapping="/resources/**" location="/resources/" />
+
 </beans>
 
 
