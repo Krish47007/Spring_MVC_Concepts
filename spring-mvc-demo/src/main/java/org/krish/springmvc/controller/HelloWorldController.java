@@ -3,6 +3,7 @@ package org.krish.springmvc.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -30,6 +31,19 @@ public class HelloWorldController {
         userName = userName.toUpperCase();
 
         String msg = "Yo!! "+userName;
+
+        //Adding into the Model
+        model.addAttribute("message",msg);    //K-V pair..key name can be anything
+
+        return "helloworld";
+    }
+
+    @RequestMapping("/processNewFormTwo")
+    public String newProcessFormTwo(@RequestParam("userName") String userName, Model model)
+    {
+        userName = userName.toUpperCase();
+
+        String msg = "Hey!! "+userName;
 
         //Adding into the Model
         model.addAttribute("message",msg);    //K-V pair..key name can be anything

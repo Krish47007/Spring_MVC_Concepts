@@ -12,7 +12,8 @@
 </head>
 <body>
         <%--<form action="/process" method="get">--%>
-        <form action="/processNewForm" method="get">
+        <%--<form action="/processNewForm" method="get">--%>
+        <form action="/processNewFormTwo" method="get">
             <input type="text" name="userName" placeholder="What's your name?" />
             <input type="submit" value="OK"/>
         </form>
