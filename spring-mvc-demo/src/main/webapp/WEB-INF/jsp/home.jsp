@@ -14,7 +14,7 @@
     <h1>Welcome to Spring MVC!!!</h1>
     <hr />
     <br/>
-    <a href="/show">Let's go inside</a>
+    <a href="/hello/show">Let's go inside</a>
 
 </body>
 </html>
