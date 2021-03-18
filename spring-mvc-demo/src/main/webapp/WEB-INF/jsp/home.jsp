@@ -15,6 +15,8 @@
     <hr />
     <br/>
     <a href="/hello/show">Let's go inside</a>
+    <br />
+    <a href="/student/showForm">Student Form</a>
 
 </body>
 </html>
