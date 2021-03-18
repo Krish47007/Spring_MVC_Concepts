@@ -4,6 +4,7 @@ public class Student {
 
     private String fName;
     private String lName;
+    private String country;
 
     public String getfName() {
         return fName;
@@ -19,5 +20,13 @@ public class Student {
 
     public void setlName(String lName) {
         this.lName = lName;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
     }
 }

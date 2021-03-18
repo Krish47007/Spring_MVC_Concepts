@@ -19,7 +19,17 @@
         First Name <form:input path="fName" /> <!-- 'fName' -> property of Student class -->
         <br/>
         First Name <form:input path="lName" />
-
+        <br />
+        <!-- Label is the drop down that user will see and value is the actual code for that
+        label that will be passed in backend-->
+        Country 
+        <form:select path="country">
+            <form:option value="IND" label="INDIA" />
+            <form:option value="AUS" label="AUSTRALIA" />
+            <form:option value="US" label="UNITED STATES" />
+            <form:option value="NZ" label="NEW ZEALAND" />
+        </form:select>
+        <br />
         <input type="submit" value="Sign Up" />
 
     </form:form>

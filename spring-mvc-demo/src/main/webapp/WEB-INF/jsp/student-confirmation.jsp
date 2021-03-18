@@ -12,6 +12,7 @@
 </head>
 <body>
 
-    Welcome : ${student.fName} ${student.lName}
+    Welcome : ${student.fName} ${student.lName} <br>
+    Country : ${student.country}
 </body>
 </html>
