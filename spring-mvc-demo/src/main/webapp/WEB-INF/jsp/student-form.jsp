@@ -24,10 +24,11 @@
         label that will be passed in backend-->
         Country 
         <form:select path="country">
-            <form:option value="IND" label="INDIA" />
+            <%--<form:option value="IND" label="INDIA" />
             <form:option value="AUS" label="AUSTRALIA" />
             <form:option value="US" label="UNITED STATES" />
-            <form:option value="NZ" label="NEW ZEALAND" />
+            <form:option value="NZ" label="NEW ZEALAND" />--%>
+            <form:options items="${theCountryOptions}" />
         </form:select>
         <br />
         <input type="submit" value="Sign Up" />
