@@ -13,6 +13,7 @@
 <body>
 
     Welcome : ${student.fName} ${student.lName} <br>
-    Country : ${student.country}
+    Country : ${student.country} <br />
+    Favourite Programming Language : ${student.favProgrammingLang}
 </body>
 </html>

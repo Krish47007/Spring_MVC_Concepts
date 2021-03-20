@@ -31,6 +31,14 @@
             <form:options items="${theCountryOptions}" />
         </form:select>
         <br />
+
+        Favourite programming language :
+        Java<form:radiobutton path="favProgrammingLang" value="Java" />
+        C++<form:radiobutton path="favProgrammingLang" value="C++" />
+        C<form:radiobutton path="favProgrammingLang" value="C" />
+        Python<form:radiobutton path="favProgrammingLang" value="Python" />
+        <br />
+
         <input type="submit" value="Sign Up" />
 
     </form:form>
