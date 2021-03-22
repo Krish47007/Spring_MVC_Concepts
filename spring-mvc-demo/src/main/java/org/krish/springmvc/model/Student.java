@@ -10,6 +10,8 @@ public class Student {
     private String country;
     private String favProgrammingLang;
 
+    private String[] operatingSystems;
+
 
   /*  private Map<String,String> countryOptions;
 
@@ -59,4 +61,12 @@ public class Student {
     /* public Map<String, String> getCountryOptions() {
         return countryOptions;
     }*/
+
+    public String[] getOperatingSystems() {
+        return operatingSystems;
+    }
+
+    public void setOperatingSystems(String[] operatingSystems) {
+        this.operatingSystems = operatingSystems;
+    }
 }
