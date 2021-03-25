@@ -13,6 +13,8 @@
 <body>
 
     <h3>Welcome : ${customer.firstName} ${customer.lastName}</h3>
+    <br />
+    Free passes : ${customer.freePasses}
 
 </body>
 </html>

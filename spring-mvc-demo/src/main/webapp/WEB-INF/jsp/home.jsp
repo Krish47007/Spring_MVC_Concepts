@@ -19,6 +19,9 @@
     <a href="/student/showForm">Student Form</a>
     <br />
     <a href="/customer/showForm">Customer Form</a>
+    <br />
+    <br />
+    <a style="cursor: pointer" onclick="javascript: window.location = '/customer/showForm';">New Customer Form</a>
 
 </body>
 </html>
