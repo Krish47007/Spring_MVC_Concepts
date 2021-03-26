@@ -11,6 +11,7 @@ public class Customer {
     private String lastName;
 
 
+    @NotNull(message = "can't be empty")    //Due to StringTrimmerEditor in initBind() if we give empty value or spaces it'll be trimmed to null and can be assigned to Integer( not int)
     @Min(value = 0,message = "must be greater than or equal to 0")
     @Max(value = 10,message = "must be less than or equal to 10")
     private Integer freePasses;
