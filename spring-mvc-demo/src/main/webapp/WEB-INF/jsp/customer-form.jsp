@@ -7,6 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="for" uri="http://www.springframework.org/tags/form" %>
 
 <html>
 <head>
@@ -27,6 +28,9 @@
         <br />
         Free Passes <form:input path="freePasses" />
         <form:errors path="freePasses" cssClass="error" />
+        <br />
+        Pincode <form:input path="pincode" />
+        <for:errors path="pincode" cssClass="error" />
         <br />
         <input type="submit" value="Submit">
     </form:form>

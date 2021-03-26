@@ -15,6 +15,7 @@
     <h3>Welcome : ${customer.firstName} ${customer.lastName}</h3>
     <br />
     Free passes : ${customer.freePasses}
-
+    <br />
+    Pincode : ${customer.pincode}
 </body>
 </html>

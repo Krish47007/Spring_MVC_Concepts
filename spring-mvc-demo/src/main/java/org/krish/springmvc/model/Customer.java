@@ -1,9 +1,6 @@
 package org.krish.springmvc.model;
 
-import javax.validation.constraints.Max;
-import javax.validation.constraints.Min;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
+import javax.validation.constraints.*;
 
 public class Customer {
 
@@ -18,6 +15,8 @@ public class Customer {
     @Max(value = 10,message = "must be less than or equal to 10")
     private Integer freePasses;
 
+    @Pattern(regexp = "^[0-9]{6}",message = "must be a numeric code with 6 characters")
+    private String pincode;
 
     public String getFirstName() {
         return firstName;
@@ -41,5 +40,13 @@ public class Customer {
 
     public void setFreePasses(Integer freePasses) {
         this.freePasses = freePasses;
+    }
+
+    public String getPincode() {
+        return pincode;
+    }
+
+    public void setPincode(String pincode) {
+        this.pincode = pincode;
     }
 }
