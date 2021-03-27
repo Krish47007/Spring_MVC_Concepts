@@ -33,6 +33,14 @@
     <!-- Step 7 : Loading properties file (optional) -->
     <util:properties  id="countryOptions" location="classpath:../countries.properties" />
 
+    <!-- Loading custom message properties for validation-->
+    <bean id="messageSource"
+          class="org.springframework.context.support.ResourceBundleMessageSource" >
+        <property name="basenames" value="message-resources" />
+        
+    </bean>
+    
+
 </beans>
 
 
