@@ -17,5 +17,7 @@
     Free passes : ${customer.freePasses}
     <br />
     Pincode : ${customer.pincode}
+    <br />
+    Course Code : ${customer.courseCode}
 </body>
 </html>

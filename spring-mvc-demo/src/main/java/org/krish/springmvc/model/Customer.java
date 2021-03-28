@@ -1,5 +1,7 @@
 package org.krish.springmvc.model;
 
+import org.krish.springmvc.validation.CourseCode;
+
 import javax.validation.constraints.*;
 
 public class Customer {
@@ -18,6 +20,9 @@ public class Customer {
 
     @Pattern(regexp = "^[0-9]{6}",message = "must be a numeric code with 6 characters")
     private String pincode;
+
+    @CourseCode(value = "CS",message = "must start with CS")
+    private String courseCode;
 
     public String getFirstName() {
         return firstName;
@@ -49,5 +54,13 @@ public class Customer {
 
     public void setPincode(String pincode) {
         this.pincode = pincode;
+    }
+
+    public String getCourseCode() {
+        return courseCode;
+    }
+
+    public void setCourseCode(String courseCode) {
+        this.courseCode = courseCode;
     }
 }

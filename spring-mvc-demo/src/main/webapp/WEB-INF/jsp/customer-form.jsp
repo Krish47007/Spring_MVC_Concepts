@@ -32,6 +32,9 @@
         Pincode <form:input path="pincode" />
         <for:errors path="pincode" cssClass="error" />
         <br />
+        Course Code <form:input path="courseCode" />
+        <form:errors path="courseCode" cssClass="error" />
+        <br />
         <input type="submit" value="Submit">
     </form:form>
 </body>
